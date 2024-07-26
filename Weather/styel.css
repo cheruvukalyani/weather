@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTdWrh4MLewHH74oK3-g4bsfw_qCKFFDS9ow&s);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    position: relative;
+    width: 500px;
+    height: 555px;
+    background: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 16px;
+    padding: 20px;
+    color: black;
+}
+
+.inputs {
+    position: relative;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+}
+.inputs::placeholder
+{
+    color: black;
+text-transform: capitalize;
+}
+
+.inputs input[type="text"] {
+     position: absolute;
+ width: 75%;
+ height: 100%;
+ background: transparent;
+ border: 2px solid rgba(255,255,255, .2);
+ outline: none;
+ border-radius: 10px;
+ font-size: 22px;
+ color: black;
+ font-weight: 500;
+ padding: 0 48px 0 42px;
+}
+
+.inputs input[type="submit"] {
+    position: absolute;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background: transparent;
+     border: none;
+     outline: none;
+     font-size: 28px;
+     color: black;
+     padding: 0 90px 0 9px;
+     cursor: pointer;
+
+}
+
+.display {
+   text-align: center;
+margin: 40px 0;
+}
+
+.wrapper {
+    background: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 16px;
+    padding: 20px;
+    color: black;
+}
+
+.wrapper h2 {
+    text-align: center;
+    background: rgba(255, 255, 255, .1);
+backdrop-filter: blur(30px);
+border: 2px solid rgba(255, 255, 255, .2);
+border-radius: 16px;
+padding: 20px;
+color: black;
+}
+
+.wrapper p {
+    text-align: center;
+    margin: 20px 50px;
+    margin-right: 20px;
+    text-align: left;
+    color: black;
+    font-size: 23px;
+}
+
+.wrapper h2 span {
+    font-size: 26px;
+    color: black;
+}
+
+.wrapper p span {
+    color:black;
+    font-size: 25px;
+}
